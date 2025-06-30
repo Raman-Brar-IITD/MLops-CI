@@ -9,7 +9,7 @@ def cube(n:float) -> float:
 
 # Function to test fifth power
 def fifth_power(n:float) -> float:
-    return n ** 5 + 3
+    return n ** 4
 # Streamlit UI
 st.title("Power Calculator")
 st.write("Enter a number to calculate its square, cube, and fifth power.")
