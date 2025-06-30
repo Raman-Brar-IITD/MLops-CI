@@ -18,12 +18,12 @@ st.write("Enter a number to calculate its square, cube, and fifth power.")
 n = st.number_input("Enter an Number", value=1, step=1)
 
 # Calculate results
-square = square(n)
-cube = cube(n)
-fifth_power = fifth_power(n)
+squar = square(n)
+cub = cube(n)
+fifth_powe = fifth_power(n)
 
 # Display results
-st.write(f"The square of {n} is: {square}")
-st.write(f"The cube of {n} is: {cube}")
-st.write(f"The fifth power of {n} is: {fifth_power}")
+st.write(f"The square of {n} is: {squar}")
+st.write(f"The cube of {n} is: {cub}")
+st.write(f"The fifth power of {n} is: {fifth_powe}")
 
