@@ -1,14 +1,14 @@
 import streamlit as st
 
-def square(n:float) -> float:
+def square(n):
     return n ** 2
 
 # Function to test cube
-def cube(n:float) -> float:
+def cube(n) :
     return n ** 3
 
 # Function to test fifth power
-def fifth_power(n:float) -> float:
+def fifth_power(n):
     return n ** 4
 # Streamlit UI
 st.title("Power Calculator")

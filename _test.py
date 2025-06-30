@@ -1,16 +1,7 @@
 import pytest
 
-# Function to test square
-def square(n):
-    return n ** 2
+from app import square, cube, fifth_power
 
-# Function to test cube
-def cube(n):
-    return n ** 3
-
-# Function to test fifth power
-def fifth_power(n):
-    return n ** 5
 
 # Testing the square function
 def test_square():
